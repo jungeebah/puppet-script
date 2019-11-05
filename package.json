@@ -1,0 +1,24 @@
+{
+  "name": "headless-chrome",
+  "engines": {
+    "node": "10.16.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "fuzzyset.js": "^0.0.8",
+    "pm2": "^4.1.2",
+    "puppeteer": "^1.20.0",
+    "valid-url": "^1.0.9",
+    "yarn": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "pm2 start app.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
